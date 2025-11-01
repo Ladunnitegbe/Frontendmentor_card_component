@@ -1,0 +1,153 @@
+
+body{
+    background-color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+   
+
+}
+
+.maincard{
+    width: 58.4375rem;
+    height: 32.125rem;
+    background-color: #ffffff;
+    display: flex;
+    /* margin-left: 15.875rem; */
+    margin: 10.1875rem auto 3rem;
+    /* margin-right: 15.6875rem; */
+    color: #ffffff;
+}
+
+
+.card{
+
+    width: 19.125rem;
+    height: 31.3125rem;
+    position: relative;
+    /* flex: 1; */
+    
+}
+
+.card1{
+    background-color: #E18525;
+    
+}
+
+.card1 .card_title{
+    color: #F4DDBE;
+}
+
+.card1 .card_text{
+    color: #EFB36B;
+}
+
+.card2{
+    background-color: #016871;
+}
+
+.card2 .card_title{
+    color: #C1E1E4;
+}
+
+.card2 .card_text{
+    color: #61AFB7;
+}
+
+.card3{
+    background-color: #00403F;
+}
+
+.card3 .card_title{
+    color: #C2D7D8;
+}
+
+.card3 .card_text{
+    color: #6D9D9D;
+}
+
+.card_image{
+    margin: 2.9375rem 12.125rem 2.1875rem 3rem;
+}
+
+.card_title{
+    text-transform: uppercase;
+    font-size: 1.9625rem;
+    margin-left: 3.125rem;
+    margin-right: 9.6875rem;
+   
+}
+
+.card_text{
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: .9938rem;
+   line-height: 1.5188rem;
+   margin-left: 2.9375rem;
+   margin-right: 3.8125rem;
+}
+
+ .card_button{
+    width: 9.125rem;
+    height: 3rem;
+    border: none;
+    background-color: #F1F2F1;
+    border-radius: 1.4375rem;
+    margin-left: 3rem;
+    margin-right: 7rem;
+    bottom: 3rem;
+    font-size: .9437rem;
+   font-weight: 600;
+    position: absolute;
+
+ }
+
+.card1 .card_button{
+    color: #DABC9A;
+}
+   
+.card2 .card_button{
+    color: #7BA1A3;
+}
+
+.card3 .card_button{
+    color: #768C8B;
+}
+
+.card_button:hover{
+    cursor: pointer;
+}
+
+.card1 .card_button:hover{
+    background-color: #E18525;
+    color: #EFB36B;
+    border: 0.0625rem solid #ffffff;
+
+}
+
+.card2 .card_button:hover{
+    background-color: #016871;
+    color: #61AFB7;
+    border: 0.0625rem solid #ffffff;
+}
+
+.card3 .card_button:hover{
+    background-color: #00403F;
+    color: #6D9D9D;
+    border: 0.0625rem solid #ffffff;
+}
+
+@media (max-width: 375px) { 
+    
+    .maincard{
+        flex-direction: column;
+        width: 21.4375rem;
+        height: auto;
+        margin: 3.125rem auto 3rem;
+    }
+
+   
+}
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
